@@ -1,0 +1,61 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# MLflow
+mlruns/
+
+# DVC cache
+.dvc/cache/
+
+# Large datasets (optional)
+# data/raw/
+# data/processed/
+
+# Model files (optional)
+models/
+
+# Temporary files
+temp/
+tmp/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# coverage reports
+.coverage
+htmlcov/
+
+# SQLite database files
+*.db
