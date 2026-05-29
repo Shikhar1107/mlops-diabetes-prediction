@@ -3,8 +3,8 @@ import sys
 import yaml
 import os
 
-# Load parameters from params.yml
-params = yaml.safe_load(open("params.yml"))["preprocess"]
+# Load parameters from params.yaml
+params = yaml.safe_load(open("params.yaml"))["preprocess"]
 
 def preprocess(input_path,output_path):
     df = pd.read_csv(input_path, header=None)
